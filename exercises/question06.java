@@ -8,6 +8,9 @@ public class question06{
         double num1 = reader.nextDouble(); 
         System.out.print("Type the second number: ");
         double num2 = reader.nextDouble();
+
+        reader.close();
+
         
         System.out.println(num1 + " + " + num2 + " = " + (num1+num2) + "\n" + num1 + " * " + num2 +" = " + (num1*num2) + "\n" + num1 + " / " + num2 +" = " + (num1/num2));
         }
