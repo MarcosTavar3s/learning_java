@@ -8,6 +8,7 @@ public class question04{
         int num1 = reader.nextInt(); 
         System.out.print("Type the divider: ");
         int num2 = reader.nextInt();
+        reader.close();
         
         System.out.println(num1 + "/" + num2 +" = " + num1/num2 + "\n" + num1 + "%" + num2+ " = " + num1%num2);
         }
