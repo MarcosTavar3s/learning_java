@@ -10,7 +10,8 @@ public class question03{
         int years = reader.nextInt();
         System.out.print("Type how many cigarretes you have smoked daily: ");
         int cigarretesPerDay = reader.nextInt();
-        
+        reader.close();
+
         // supposing that there aren't leap years
         float cost = 365 * cigarretesPerDay * years * price;
         
