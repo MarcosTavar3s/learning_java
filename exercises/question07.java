@@ -12,7 +12,7 @@ public class question07{
         n2 = reader.nextDouble();
         System.out.println("Third number: ");
         n3 = reader.nextDouble();
-
+		reader.close();
 
         if(n1 > n2 + n3){
             System.out.println(n1 + " is greater than " + (n2 + n3));
