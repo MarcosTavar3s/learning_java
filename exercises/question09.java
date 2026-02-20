@@ -8,7 +8,8 @@ public class question09{
         Scanner reader = new Scanner(System.in);
         System.out.println("Type name: ");
         user_input = reader.nextLine();
-        
+		reader.close();
+
 	    if(name.equals(user_input)){
 	        System.out.println("Correct");
 	    }
