@@ -13,6 +13,7 @@ public class question08{
         first_n = reader.nextFloat();
         System.out.println("Last number: ");
         last_n = reader.nextFloat();
+		reader.close();
 
         n = (last_n - first_n) / common_difference + 1;
         
